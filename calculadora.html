@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container-body">
+        <h1>Calculadora</h1>
+        <label for="visor">
+            <input type="text" name="" id="visor" class="container-display" placeholder="0" autofocus>
+        </label>
+        <br><br>
+        <input type="submit" value="7" class="container-button" onclick="adicionaVisor(7)">
+        <input type="submit" value="8" class="container-button" onclick="adicionaVisor(8)">
+        <input type="submit" value="9" class="container-button" onclick="adicionaVisor(9)">
+        <input type="submit" value="-" class="container-button" onclick="adicionaVisor('-')"> <br><br>
+        <input type="submit" value="4" class="container-button" onclick="adicionaVisor(4)">
+        <input type="submit" value="5" class="container-button" onclick="adicionaVisor(5)">
+        <input type="submit" value="6" class="container-button" onclick="adicionaVisor(6)">
+        <input type="submit" value="+" class="container-button" onclick="adicionaVisor('+')"> <br><br>
+        <input type="submit" value="1" class="container-button" onclick="adicionaVisor(1)">
+        <input type="submit" value="2" class="container-button" onclick="adicionaVisor(2)">
+        <input type="submit" value="3" class="container-button" onclick="adicionaVisor(3)">
+        <input type="submit" value="*" class="container-button" onclick="adicionaVisor('*')"> <br><br>
+        <input type="submit" value="." class="container-button" onclick="adicionaVisor('.')">
+        <input type="submit" value="0" class="container-button" onclick="adicionaVisor(0)">
+        <input type="submit" value="," class="container-button" onclick="adicionaVisor('.')">
+        <input type="submit" value="/" class="container-button" onclick="adicionaVisor('/')"> <br><br>
+        <input type="submit" value="Del" id="reset" class="container-button-action" onclick="limparVisor('')">
+        <input type="submit" value="=" id="send" class="container-button-action" onclick="calcular('')">
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+.container-body{
+    text-align: center;
+}
+
+.container-button{
+    min-width: 43px;
+}
+
+.container-button-action{
+    min-width: 90px;
+}
+
+.container-display{
+    min-height: 30px;
+    font-size: 15px;
+}
